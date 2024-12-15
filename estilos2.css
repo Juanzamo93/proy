@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+ 
+
+  
+  .header {
+    background-color: #2708a2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .caja7, .caja8, .caja9 {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .caja7 {
+    background-color: red;
+  }
+  
+  .caja8 {
+    background-color: blue;
+  }
+  
+  .caja9 {
+    background-color: green;
+  }
